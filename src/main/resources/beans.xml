@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="wheel" class="com.example.carProject.Wheel">
+        <constructor-arg value="Wheel1"/>
+    </bean>
+
+    <bean id="engine" class="com.example.carProject.Engine">
+        <constructor-arg value="Starter1"/>
+        <constructor-arg value="SparkPlug1"/>
+    </bean>
+
+    <bean id="accumulator" class="com.example.carProject.Accumulator">
+        <constructor-arg value="Accu1"/>
+    </bean>
+
+    <bean id="suspension" class="com.example.carProject.Suspension">
+        <constructor-arg value="Hinge1"/>
+        <constructor-arg value="Diff1"/>
+    </bean>
+
+    <bean id="car" class="com.example.carProject.Car">
+        <constructor-arg ref="wheel"/>
+        <constructor-arg ref="engine"/>
+        <constructor-arg ref="accumulator"/>
+        <constructor-arg ref="suspension"/>
+    </bean>
+</beans>
