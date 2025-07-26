@@ -1,5 +1,9 @@
-package com.example.carProject;
+package com.example.carProject.xml;
 
+import com.example.carProject.xml_annotation.CarPart;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Suspension implements CarPart {
     private final String hinge;
     private final String differential;

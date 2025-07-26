@@ -63,7 +63,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>org.spring_framework.MavenExample</mainClass>
+							<mainClass>com.example.carProject</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

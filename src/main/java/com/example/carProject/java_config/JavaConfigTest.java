@@ -1,5 +1,6 @@
-package com.example.carProject;
+package com.example.carProject.java_config;
 
+import com.example.carProject.xml_annotation.Car;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class JavaConfigTest {

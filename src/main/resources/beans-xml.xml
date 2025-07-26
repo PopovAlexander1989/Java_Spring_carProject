@@ -4,25 +4,25 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="wheel" class="com.example.carProject.Wheel">
+    <bean id="wheel" class="com.example.carProject.xml.Wheel">
         <constructor-arg value="Wheel1"/>
     </bean>
 
-    <bean id="engine" class="com.example.carProject.Engine">
+    <bean id="engine" class="com.example.carProject.xml.Engine">
         <constructor-arg value="Starter1"/>
         <constructor-arg value="SparkPlug1"/>
     </bean>
 
-    <bean id="accumulator" class="com.example.carProject.Accumulator">
+    <bean id="accumulator" class="com.example.carProject.xml.Accumulator">
         <constructor-arg value="Accu1"/>
     </bean>
 
-    <bean id="suspension" class="com.example.carProject.Suspension">
+    <bean id="suspension" class="com.example.carProject.xml.Suspension">
         <constructor-arg value="Hinge1"/>
         <constructor-arg value="Diff1"/>
     </bean>
 
-    <bean id="car" class="com.example.carProject.Car">
+    <bean id="car" class="com.example.carProject.xml.Car">
         <constructor-arg ref="wheel"/>
         <constructor-arg ref="engine"/>
         <constructor-arg ref="accumulator"/>

@@ -1,5 +1,10 @@
-package com.example.carProject;
+package com.example.carProject.java_config;
 
+import com.example.carProject.xml_annotation.Accumulator;
+import com.example.carProject.xml_annotation.Car;
+import com.example.carProject.xml_annotation.Engine;
+import com.example.carProject.xml_annotation.Suspension;
+import com.example.carProject.xml_annotation.Wheel;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

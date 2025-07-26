@@ -1,4 +1,6 @@
-package com.example.carProject;
+package com.example.carProject.java_config;
+
+import com.example.carProject.xml_annotation.CarPart;
 
 public class Wheel implements CarPart {
     private final String id;

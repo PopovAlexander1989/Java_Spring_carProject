@@ -1,4 +1,6 @@
-package com.example.carProject;
+package com.example.carProject.xml;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class Car {
     private final Wheel wheel;
@@ -6,6 +8,7 @@ public class Car {
     private final Accumulator accumulator;
     private final Suspension suspension;
 
+    @Autowired
     public Car(Wheel wheel, Engine engine, Accumulator accumulator, Suspension suspension) {
         this.wheel = wheel;
         this.engine = engine;
